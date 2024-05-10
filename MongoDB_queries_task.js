@@ -1,4 +1,4 @@
-// MongoDB Day 1
+// MongoDB Day 3
 
 
 // Inserting product JSON data to the products collection
