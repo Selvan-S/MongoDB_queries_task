@@ -14,7 +14,7 @@ db.products.find({product_price: {$gt: 400, $lt:800}});
 db.products.find({$nor:[{product_price: {$gt: 400, $lt:600}}]});
 
 // 4) List the four product which are greater than 500 in price
-db.products.find({product_price: {$gt: 500}}).limit(5);
+db.products.find({product_price: {$gt: 500}}).limit(4);
 
 // 5) Find the product name and product material of each products
 // 7) Find only the product name and product material
